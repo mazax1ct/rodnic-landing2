@@ -1,0 +1,91 @@
+.page
+  &__title
+    color: #202850
+    font-family: 'gilroyextrabold', sans-serif
+    font-size: 22px
+    line-height: 1.4
+    margin-bottom: 1em
+    text-align: center
+
+    @media(min-width: 768px)
+      font-size: 30px
+      line-height: 1.7
+      margin-bottom: 2em
+
+  &__cols
+    @media(min-width: 1366px)
+      display: flex
+
+  &__col
+    &:first-child
+      @media(min-width: 1366px)
+        flex-grow: 1
+
+    &:last-child
+      @media(min-width: 1366px)
+        width: 706px
+        min-width: 706px
+
+  &__text-1
+    font-size: 18px
+    line-height: 1.23
+    margin-bottom: 1.23em
+    text-align: center
+
+    @media(min-width: 768px)
+      font-size: 26px
+
+    @media(min-width: 1366px)
+      margin-right: -80px
+      position: relative
+      text-align: left
+      z-index: 1
+
+  &__text-2
+    font-family: 'gilroyextrabold', sans-serif
+    font-size: 18px
+    line-height: 1.25
+    margin-bottom: 1.25em
+    text-align: center
+
+    @media(min-width: 768px)
+      font-size: 24px
+
+    @media(min-width: 1366px)
+      text-align: left
+
+  &__text-3
+    font-family: 'gilroyextrabold', sans-serif
+    font-size: 18px
+    line-height: 1.27
+    margin-bottom: 1.27em
+    text-align: center
+
+    @media(min-width: 768px)
+      font-size: 22px
+
+    @media(min-width: 1366px)
+      text-align: left
+
+.logo
+  display: block
+  height: 50px
+  margin-top: 10px
+  margin-bottom: 10px
+  margin-left: auto
+  margin-right: auto
+  width: 50px
+
+  @media(min-width: 768px)
+    height: 70px
+    margin-top: 24px
+    margin-bottom: 24px
+    width: 70px
+
+  @media(min-width: 992px)
+    height: 90px
+    width: 90px
+
+  @media(min-width: 1200px)
+    height: 124px
+    width: 124px

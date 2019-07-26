@@ -1,0 +1,74 @@
+.form
+  background-color: #f2efec
+  max-width: 706px
+  padding: 20px
+  position: relative
+  width: 100%
+
+  @media(min-width: 768px)
+    background: url('../images/backgrounds/form.jpg') no-repeat 0 0 transparent
+    margin-left: auto
+    margin-right: auto
+    padding-top: 240px
+    padding-left: 24px
+    padding-right: 40px
+    padding-bottom: 73px
+
+  &__row
+    margin-bottom: 10px
+
+    @media(min-width: 768px)
+      display: flex
+      margin-bottom: 16px
+
+  &__col
+    @media(max-width: 767px)
+      margin-bottom: 10px
+
+    &:last-child
+      margin-bottom: 0
+
+    @media(min-width: 768px)
+      padding-right: 18px
+      width: 50%
+
+    &:nth-child(2)
+      @media(min-width: 768px)
+        padding-left: 18px
+        padding-right: 0
+
+  &__label
+    display: block
+    font-size: 16px
+
+  &__label-text
+    display: block
+    font-family: 'gilroyextrabold', sans-serif
+    margin-bottom: 10px
+
+  &__button-block
+    position: relative
+
+  &__button-block-text
+    display: none
+
+    @media(min-width: 1366px)
+      background: url('../images/backgrounds/arrow.png') no-repeat 100% 50% transparent
+      display: block
+      font-family: 'gilroyextrabold', sans-serif
+      font-size: 24px
+      left: 0
+      padding-right: 80px
+      position: absolute
+      top: 50%
+      transform: translate(-385px,-50%)
+
+  &__button
+    background-color: #ff1d4e
+    border-radius: 10px
+    border: none
+    color: #fff
+    cursor: pointer
+    font-family: 'gilroyextrabold', sans-serif
+    height: 48px
+    width: 100%
